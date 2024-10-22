@@ -1,6 +1,6 @@
 <script lang="ts">
 	import '../app.css';
-	import { onMount, type Snippet } from 'svelte';
+	import { type Snippet } from 'svelte';
 	import { ClerkProvider } from '$lib/components';
 	import Header from '../components/Header.svelte';
 	import { PUBLIC_CLERK_PUBLISHABLE_KEY } from '$env/static/public';
